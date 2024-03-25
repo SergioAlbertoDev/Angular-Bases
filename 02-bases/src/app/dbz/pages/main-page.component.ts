@@ -24,9 +24,10 @@ export class MainPageComponent  {
 
 
      onNewCharacter(character: Character):void{
-      console.log('Main Page');
+      this.characters.push(character);
+     }
 
-        console.log(character);
-
+     onDeleteCharacter(index: number){
+        this.characters.splice(index,1);
      }
 }
