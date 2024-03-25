@@ -27,7 +27,7 @@ export class DbzService {
    ;
 
 
-   onNewCharacter(character: Character):void{
+   addCharacter(character: Character):void{
 
     /*
     * toma todos los datos de character e ingestalos en este nuevo objeto
