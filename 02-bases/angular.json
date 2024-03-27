@@ -31,7 +31,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "https://[path]",
+              "baseHref": "https://sergioalbertodev.github.io/Angular-Bases/",
               "budgets": [
                 {
                   "type": "initial",
